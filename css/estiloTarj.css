@@ -1,0 +1,209 @@
+
+
+ section{
+           display: flex;
+           background: rgb(63, 63, 73);
+           width: 400px;
+           height: 500px;
+           border-radius: 15px;/*da la forma curva a las esquinas */
+           overflow: hidden; /* Todo lo que salga del vorde lo esconde*/
+           border-right-color: #05ffb0;
+       }    
+        .header{
+            height: 40%;
+            overflow: hidden;
+        }
+        .header img:nth-child(1){
+            position: relative;
+            width: 100%;
+            height: 100%;
+            top: 1px;
+            
+        }
+        .header img:nth-child(2){
+            box-shadow: 0px 0px 15px #d6cccc;
+            position:absolute;
+            left: 20px;            
+            top: 50px;            
+            width: 135px;
+            height: 130px;
+            border-radius: 100px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        h1{
+            position: relative;
+            top: -20px;
+            font-size: 30px;
+            font-family: Bacalisties, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-style: italic;
+            color: blanchedalmond;
+        }
+        h4{
+            position: relative;
+            font-size: 20px;
+            top: -40px;
+            font-family: Bradley Hand ITC, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-style: italic;
+            color: blanchedalmond;
+        }
+
+        h5{
+            position: relative;
+            font-size: 15px;
+            top: -50px;
+            font-family: Bahnschrift Light, Hand ITC, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            color: #9e9e9e;
+        }
+    
+        .tabla{
+            position: relative;
+            top: -20px;
+            display:flex;
+        }
+        .tabla a:nth-child(1){
+            /*Estilos generales*/
+            text-decoration: none;
+            display: block;
+            border: 2px solid #00abfb;
+            border-radius: 50px;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
+            margin: auto;
+
+            font-family:Century Gothic;
+            color: white;
+            background: #00abfb;
+            box-shadow: 0px 0px 15px #000000; /*para dar sombra*/
+
+            transition: 1s;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition:1s;
+         
+        }
+        .tabla a:nth-child(2){
+            text-decoration: none;
+            display: block;
+            border: 2px solid #00abfb;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
+            margin: auto;
+            border-radius: 50px;
+
+            font-family:Century Gothic;
+            color: white;
+            background: #00abfb;
+            box-shadow: 0px 0px 15px #000000; /*para dar sombra*/
+            
+            transition: 1s;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition:1s;
+        }
+
+        .tabla a:nth-child(3){
+            /*Estilos generales*/
+            text-decoration: none;
+            display: block;
+            border: 2px solid #00abfb;
+            border-radius: 50px;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
+            margin: auto;
+
+            font-family:Century Gothic;
+            color: white;
+            background: #00abfb;
+            box-shadow: 0px 0px 15px #000000; /*para dar sombra*/
+
+            transition: 1s;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition:1s;
+        }
+
+        .tabla a:nth-child(4){
+            /*Estilos generales*/
+            text-decoration: none;
+            display: block;
+            border: 2px solid #00abfb;
+            border-radius: 50px;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
+            margin: auto;
+
+            font-family:Century Gothic;
+            color: white;
+            background: #00abfb;
+            box-shadow: 0px 0px 15px #000000; /*para dar sombra*/
+            
+            transition: 1s;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition:1s;
+        }
+      
+        .tabla a:hover{ /*animacion en el boton para eso se usa el hover*/
+            background: #013e5a;
+            color: #00abfb;
+            width: 100px; /*cambia el tamño del ancho a 100pixeles*/
+        } 
+        hr {
+            position: relative;
+            top: -10px;
+        }
+        
+        .subscribe{
+            position: relative;
+            display:flex;
+            top: -5px;
+        }
+        .subscribe a:nth-child(1){
+            /*Estilos generales*/
+            text-decoration: none;
+            display: block;
+            border: 1px solid #ffffff;
+            border-radius: 50px;
+            width: 120px;
+            height: 30px;
+            text-align: center;
+            padding-top: 4px;
+            margin: auto;
+
+            font-family: Bahnschrift Light, Hand ITC, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            color: white;
+            background: #b61047;
+            box-shadow: 0px 0px 15px #000000; /*para dar sombra*/
+
+            transition: 1s;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition:1s;
+        }
+        .subscribe a:hover{
+            background: #013e5a;
+            color: #000000;
+            width: 150px; /*cambia el tamño del ancho a 130pixeles*/
+        } 
+        h3{
+            position: relative;
+            font-size: 15px;
+            top: -15px;
+        }
